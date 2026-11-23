@@ -1,0 +1,33 @@
+# Never commit documents, indexes, models or personal config
+config.json
+*.pdf
+*.PDF
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.msg
+*.tif
+*.tiff
+*.jpg
+*.jpeg
+*.png
+*.ppt
+*.pptx
+*.csv
+*.sqlite
+*.sqlite-*
+*.onnx
+*.onnx_data
+*.pkl
+data/
+docs/
+index/
+onnx/
+hf/
+compare_work/
+Document Comparison/
+__pycache__/
+.venv/
+venv*/
+.DS_Store
