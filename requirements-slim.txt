@@ -1,0 +1,6 @@
+numpy
+onnxruntime>=1.18
+tokenizers
+mcp>=1.6,<2
+python-docx
+openpyxl

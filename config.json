@@ -1,0 +1,20 @@
+{
+  "docs_dir": "~/Library/CloudStorage/OneDrive-IndianOilCorporationLimited(2)/Policy Docs - Word",
+  "comparison_xlsx": "~/Library/CloudStorage/OneDrive-IndianOilCorporationLimited(2)/Policy Docs - Word/Document Comparison/Document Comparison.xlsx",
+  "comparison_dir": "~/Library/CloudStorage/OneDrive-IndianOilCorporationLimited(2)/Policy Docs - Word/Document Comparison",
+  "exclude_dirs": [
+    "Policy OCR tool",
+    "Document Comparison",
+    "_to_delete"
+  ],
+  "index_path": "~/KnowledgeRAG/kb_index.sqlite",
+  "embed_model": "BAAI/bge-m3",
+  "rerank_model": "BAAI/bge-reranker-v2-m3",
+  "use_reranker": true,
+  "onnx_dir": "~/KnowledgeRAG/onnx",
+  "chunk_words": 300,
+  "overlap_words": 50,
+  "embed_max_tokens": 1024,
+  "main_copies_only": true,
+  "idle_unload_minutes": 10
+}

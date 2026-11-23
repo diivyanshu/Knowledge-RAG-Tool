@@ -1,0 +1,9 @@
+torch>=2.4
+transformers>=4.44,<5
+tokenizers
+numpy
+onnx
+onnxruntime>=1.18
+mcp>=1.6,<2
+python-docx
+openpyxl
